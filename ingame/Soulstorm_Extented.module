@@ -1,0 +1,52 @@
+[global]
+
+UIName = SSE
+Description = 2nd DoW Expansion Pack Project.
+
+Playable = 1
+ModFolder = Soulstorm-Extented
+ModVersion = 1.0
+TextureFE = Art/UI/Textures/Title_winter_assault.tga
+TextureIcon =
+
+DllName = WXPMod
+;; //////////////////////////////////////////////////////////////////
+;; List of folders to map for this MOD 
+;; order is important - the first Archives registered will be scanned for files first
+DataFolder.1 = %LOCALE%\Data
+DataFolder.2 = Data
+DataFolder.3 = Assets\Maps\Atmosphere
+DataFolder.4 = Assets\Maps\Camp
+DataFolder.5 = Assets\Maps\Custom
+DataFolder.6 = Assets\Maps\PVP
+DataFolder.7 = Assets\Maps\Types
+DataFolder.8 = Engine\Graphics\Decals
+DataFolder.9 = Engine\Graphics\Effects
+DataFolder.10 = Engine\Interface\Interface
+DataFolder.11 = Engine\Models\Environment
+DataFolder.12 = Engine\Models\Heroes
+DataFolder.13 = Engine\Models\Infantry
+DataFolder.14 = Engine\Models\Interface
+DataFolder.15 = Engine\Models\Vehicles
+DataFolder.16 = Engine\Simulation\Additional
+DataFolder.18 = Engine\Simulation\AI
+DataFolder.19 = Engine\Simulation\Attrib
+DataFolder.20 = Engine\Simulation\Script
+DataFolder.21 = Engine\Simulation\Sound
+DataFolder.22 = Engine\Simulation\System
+DataFolder.23 = Engine\Sound\Ambient
+DataFolder.24 = Engine\Sound\Interface
+DataFolder.25 = Engine\Sound\Music
+DataFolder.26 = Engine\Sound\SFX
+DataFolder.27 = Engine\Sound\Speech
+;; //////////////////////////////////////////////////////////////////
+;; List of archives to load for this MOD 
+;; order is important - the first Archives registered will be scanned for files first
+
+
+;; //////////////////////////////////////////////////////////////////
+;; List of MODs that this MOD requires to work
+RequiredMod.1 = DXP2
+RequiredMod.2 = W40k
+
+
